@@ -13,7 +13,7 @@ def loop(symbol, increment, csvName):
         for j in range(0,len(part)):
 
             list=[part[j][1], part[j][2] , part[j][3], part[j][4], part[j][5], part[j][6], part[j][7], part[j][8], part[j][9], part[j][10], ]
-            csv_append('./' + csvName, list)
+            csv_append(csvName, list)
 
         print(i+increment)
 

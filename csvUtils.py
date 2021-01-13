@@ -2,7 +2,7 @@ import csv
 
 def csv_append(csvName, list):
 
-    with open('./' + csvName, 'a') as f_object:
+    with open('./csv/' + csvName, 'a') as f_object:
         # Pass this file object to csv.writer()
         # and get a writer object
         writer_object = csv.writer(f_object, delimiter=';')
